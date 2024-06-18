@@ -1,0 +1,16 @@
+[Unit]
+Description=hat_term
+DefaultDependencies=no
+
+StartLimitIntervalSec=500
+StartLimitBurst=5
+
+[Service]
+User=pi
+Restart=always
+RestartSec=5s
+WorkingDirectory=/home/pi/hat_term
+ExecStart=/home/pi/hat_term/hat_term.py
+
+[Install]
+WantedBy=sysinit.target

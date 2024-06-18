@@ -1,0 +1,6 @@
+bdflib==1.1.3
+displayhatmini==0.0.2
+Pillow==10.1.0
+ptyprocess==0.7.0
+pyte==0.8.0
+qrcode==7.4.2
